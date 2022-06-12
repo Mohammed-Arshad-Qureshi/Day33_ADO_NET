@@ -6,7 +6,8 @@ namespace EmployeePayRoll
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to ADO DOT NET");
+            EmployeeRepo repo = new EmployeeRepo();
+            repo.GetAllEmployees();
         }
     }
 }
