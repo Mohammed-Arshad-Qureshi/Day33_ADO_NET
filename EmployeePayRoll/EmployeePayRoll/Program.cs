@@ -8,6 +8,7 @@ namespace EmployeePayRoll
         {
             EmployeeRepo repo = new EmployeeRepo();
             repo.GetAllEmployees();
+            repo.UpdateData();
         }
     }
 }
